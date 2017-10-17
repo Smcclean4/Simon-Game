@@ -1,0 +1,116 @@
+body {
+	background-color:maroon;
+}
+
+h1 {
+	text-align:center;
+	color:white;
+	font-family:"Saira";
+	padding-top:5%;
+}
+
+h2 {
+	color:white;
+	font-family:"Saira";
+}
+
+h3 {
+	text-align:center;
+	color:white;
+	font-family:"Lobster";
+	padding-bottom:2%;
+}
+
+input {
+	background-color:black;
+	border-color:black;
+	border-radius:20%;
+	font-family:"Orbitron";
+	padding-left:30px;
+	padding-top:10px;
+	height:50px;
+	width:80px;
+}
+
+input::placeholder {
+	font-size:30px;
+	letter-spacing:5px;
+	color:red;
+}
+
+#game {
+	background:black;
+	background:radial-gradient(black, black, gray);
+	background:-webkit-radial-gradient(black, black, gray);
+	background:-moz-radial-gradient(black, black, gray);
+	background:-o-radial-gradient(black, black, gray);
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:45%;
+	box-shadow:10px 10px 20px black;
+	width:500px;
+}
+
+#red {
+	background-color:red;
+	border-top-left-radius:100%;
+	height:200px;
+	width:45%;
+	margin-right:2%;
+	margin-bottom:2%;
+	
+}
+
+#red:hover {
+	opacity:0.5;
+}
+
+#yellow {
+	background-color:yellow;
+	border-top-right-radius:100%;
+	height:200px;
+	width:45%;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+
+#yellow:hover {
+	opacity:0.5;
+}
+
+#blue {
+	background-color:blue;
+	border-bottom-left-radius:100%;
+	height:200px;
+	width:45%;
+	margin-top:2%;
+	margin-right:2%;
+}
+
+#blue:hover {
+	opacity:0.5;
+}
+
+#green {
+	background-color:green;
+	border-bottom-right-radius:100%;
+	height:200px;
+	width:45%;
+	margin-top:2%;
+	margin-left:2%;
+}
+
+#green:hover {
+	opacity:0.5;
+}
+
+#reset {
+margin-left:47%;
+margin-bottom:2%;
+}
+
+#navigation {
+	text-align:center;
+	padding-top:50px;
+}
